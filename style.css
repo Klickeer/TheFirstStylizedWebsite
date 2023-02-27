@@ -117,6 +117,7 @@ button {
 .info-div p{
     margin-top: 160px;
     font-size: 17px;
+    text-align: center;
 }
 
 #citation-container{
@@ -128,21 +129,19 @@ button {
 }
 
 #citation-text-cotnainer{
-    height: 190px;
-    width: 750px;
+    height: 170px;
+    width: 690px;
 }
 
 #citation-text{
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
 }
 
 #citation-author{
     font-weight: bolder;
     font-size: 23px;
-    position: absolute;
-    top: 1155px;
-    left: 56%;
+    margin-left: 400px;
 }
 
 #registration-container{
@@ -176,5 +175,6 @@ footer{
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    height: 64px;
+    height: 74px;
+    font-size: large;
 }
