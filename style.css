@@ -36,13 +36,16 @@ header{
 
 
 #main-image{
-    background-color: rgba(148, 148, 156, 0.719);
+    border-radius: ;
     width: 31em;
     text-align: center;
     position: relative;
     height: 13em;
     position: relative;
     margin-top: 40px;
+    background: linear-gradient(45deg,#1D2B64,#F8CDDA);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
 }
 
 #main-image p{
@@ -59,7 +62,6 @@ header{
 #main-text{
     width: 478px;
     color: #f9faf8;
-    
 }
 
 #main-text h1{
@@ -82,6 +84,16 @@ button {
     border-radius: 8px;
     font-size: 15px;
     font-weight: bold;
+    background: linear-gradient(45deg,#1D2B64,#F8CDDA);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+#info-container, #registration-container{
+    background-position:center;
+    background-size:115%;
+    background-image:url(https://pngimage.net/wp-content/uploads/2018/06/transparent-red-png-6.png);
+    background-attachment:local;
 }
 
 #info-container{
@@ -109,10 +121,14 @@ button {
 }
 
 .info-div{
-    border: solid #3882f6;
+    border: solid #F8CDDA;
     width: 150px;
     height: 150px;
     border-radius: 12px;
+    background-position:center;
+    background-size:350px;
+    background-image:url(https://i.pinimg.com/originals/ff/e5/32/ffe53224951c3d99152bdba04854052d.jpg);
+    background-attachment:fixed;
 }
 
 .info-div p{
@@ -126,7 +142,21 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background: linear-gradient(45deg,#1D2B64,#F8CDDA);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 
 #citation-text-cotnainer{
@@ -164,18 +194,24 @@ button {
     width: 940px;
     margin-left: 23px;
     color: #f9faf8;
+    background: linear-gradient(45deg,#1D2B64,#F8CDDA);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
 }
 
 #reg-button{
     border: 2px solid #f9faf8;
     margin-bottom: 10px;
+    background: linear-gradient(45deg,#1D2B64,#F8CDDA);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
 }
 
 footer{
     background-color: #1f2937;
     color: #f9faf8;
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 74px;
     font-size: large;
